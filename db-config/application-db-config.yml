@@ -1,3 +1,4 @@
-data:
-  mongodb:
-    uri: mongodb://localhost:27017/Studentdb?retryWrites=true&loadBalanced=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/Studentdb?retryWrites=true&loadBalanced=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000
