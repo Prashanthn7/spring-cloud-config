@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/Studentdb?retryWrites=true
+      uri: mongodb://localhost:27017/Studentdb?retryWrites=true&writeConcern=majority
 
   redis:
     host: localhost
